@@ -1,4 +1,12 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC ## Overview
+# MAGIC This is sample notebook to create job and add permssion as **CAN_MANAGE** to the created job. you can change the permssion as required.
+# MAGIC 
+# MAGIC This notebook is written in **Python** so the default cell type is Python.
+
+# COMMAND ----------
+
 # DBTITLE 1,Job Json
 job_json = {
   "name": "sample-job-with-appid",
@@ -205,4 +213,3 @@ if __name__ == "__main__":
   except Exception as ex:
     display_error(ex)
     init()
-
